@@ -36,39 +36,31 @@ The RAG Framework involves:
 
 Here are sample pictures and computation of BridgeTower embeddings
 
-![Sample images](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/Multimodal_RAG_Flow.png)
+![Sample images](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/sample_images_embeds.png)
 
-- I have handled categorical variables i.e nominal ar well as ordinal by using one-hot-encoding and label encoding whereever necessary.
+The embeddings have 512 dimensions and so I have used UMAP to project into 2 dimensions to visualize it
 
-### Feature Selection
-- I have used ExtraTreesRegressor for checking feature importances.
+![UMAP](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/embeds_UMAP.png)
 
-- I have also used barplot for visualising them:
-![Feature_Imp](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/feature%20importances.png)
+- The embeddings of image-text pairs of `cats` (i.e., blue dots) are
+closed to each other.
+- The embeddings of image-text pairs of `cars` (i.e., orange dots) are
+closed to each other.
+- The embeddings of image-text pairs of `cats` (blue dots) are far away
+from the embeddings of image-text pairs of `cars` (orange dots).
 
-### Model Making
 
-- I have built a RandomForestRegressor model with default hyperparameters initially.
+### Preprocessing Videos
 
-- I chose this model just because I thought ensemble model would work better. But you can try different models too.
 
-### Hyper-Parameter Tuning
+### Vector Store - Ingesting and Retrieval
 
-- I have tuned the hyperparameters 'n_estimators', 'max_depth', 'max_features' by using RandomisedSearchCV. I used  this because this works faster than GridSearchCV.
 
-- I again built a RF model with best hyper-parameters selected from CV.
+### Large Vision-Language model for completion
 
-### Metrics
 
-- I have used 'r2_score' as my metric here. You can use any different metric for regression.
+### Working of Application
 
-- Further I have plotted and checked error terms also to check whether they are normally distributed around 0.
-
-### DATA SOURCE
-- [Flight Fare Dataset](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/)
-
-### Notebook
-- [Flight Fare Predictor](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/Flight%20Fare%20Prediction.ipynb)
 
 ### Built with 🛠️
 - Packages/Repo : Pandas,Numpy,Seaborn,Matplotlib,Sklearn,Flask,Pickle,Git
@@ -76,10 +68,3 @@ Here are sample pictures and computation of BridgeTower embeddings
 - Dataset : Kaggle
 
 - Coded on : Jupter Notebook (modelling), VSCode(building application)
-
-### Deployment
-- Deployed using Heroku(PAAS)
-
-- For deployment repository click [here](https://github.com/Pratik872/ML/tree/deployFlight)
-
-- For Web Application click [here](https://flight-fare-deploy.herokuapp.com/)

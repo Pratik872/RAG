@@ -93,8 +93,8 @@ from the embeddings of image-text pairs of `cars` (orange dots).
 
 ### 5 - Working of Application
 
-![sample1](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/working1.png)
-![sample2](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/working2.png)
+- ![sample1](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/working1.png)
+- ![sample2](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/working2.png)
 
 
 ### Built with 🛠️

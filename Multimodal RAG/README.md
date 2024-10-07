@@ -75,13 +75,25 @@ from the embeddings of image-text pairs of `cars` (orange dots).
 - Top 'k' results were retrieved. Below are the sample quesry and results for top 3.
         Query - "a toddler and an adult"
 
-        ![1]()
+        ![1](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/1.png)
+        ![2](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/2.png)
+        ![3](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/3.png)
 
 
 ### 4 - Large Vision-Language model for completion
 
+![LLMvsLVLM](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/LLM%20vs%20LVLM.png)
+
+#### LLaVA (Large Language-and-Vision Assistant) model
+![LLaVA](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/LLaVA.png)
+- LLaVA , an end-to-end trained large multimodal model that connects a vision encoder and LLM for general-purpose visual and language understanding.
+
+- LLaVA doesn't just see images but understands them, reads the text embedded in them, and reasons about their context—all while conversing with you in a way that feels almost natural.
+
 
 ### 5 - Working of Application
+
+![sample1]()
 
 
 ### Built with 🛠️

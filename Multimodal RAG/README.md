@@ -63,7 +63,8 @@ from the embeddings of image-text pairs of `cars` (orange dots).
         -video_path: Path to the video from which the frame was extracted; This helps to retrieve the correct video when there are many ones in your video corpus;
         -mid_time_ms: Time stamp (in ms) of the extracted frame
 
-- 
+- Here is the sample generated caption for an image
+ ![video_preprocess](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/video_preprocess.png)
 
 
 ### 3 - Vector Store - Ingesting and Retrieval

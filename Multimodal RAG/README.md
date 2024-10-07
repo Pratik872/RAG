@@ -19,8 +19,6 @@
 
 ## Methodology
 
-### EDA (Exploratory Data Analysis) 
-
 ![MultiModal RAG Flow](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/Multimodal_RAG_Flow.png)
 
 The RAG Framework involves:
@@ -32,7 +30,7 @@ The RAG Framework involves:
 
 - Using a Large Vision-Language Model to get inference and chat completion
 
-### Computing Embeddings
+### 1 - Computing Embeddings
 
 Here are sample pictures and computation of BridgeTower embeddings
 
@@ -50,16 +48,16 @@ closed to each other.
 from the embeddings of image-text pairs of `cars` (orange dots).
 
 
-### Preprocessing Videos
+### 2 - Preprocessing Videos
 
 
-### Vector Store - Ingesting and Retrieval
+### 3 - Vector Store - Ingesting and Retrieval
 
 
-### Large Vision-Language model for completion
+### 4 - Large Vision-Language model for completion
 
 
-### Working of Application
+### 5 - Working of Application
 
 
 ### Built with 🛠️

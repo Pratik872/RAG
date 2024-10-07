@@ -50,6 +50,21 @@ from the embeddings of image-text pairs of `cars` (orange dots).
 
 ### 2 - Preprocessing Videos
 
+- Videos were downloaded from Youtube along with the transcripts. For the videos which didn't have transcripts were generated using 'Whisper' model.
+
+- For videos without language, LVLM model was used to generate captions which were then passed as an query.
+
+- For each video segment, we will extract:
+    1. A frame right at the middle of the time frame of the video segment;
+    2. Its metadata including:
+        -extracted_frame_path: Path to the saved extracted-frame;
+        -transcript: Transcript of the extracted frame;
+        -video_segment_id: The order of video segment from which the frame was extracted;
+        -video_path: Path to the video from which the frame was extracted; This helps to retrieve the correct video when there are many ones in your video corpus;
+        -mid_time_ms: Time stamp (in ms) of the extracted frame
+
+- 
+
 
 ### 3 - Vector Store - Ingesting and Retrieval
 

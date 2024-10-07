@@ -68,6 +68,14 @@ from the embeddings of image-text pairs of `cars` (orange dots).
 
 
 ### 3 - Vector Store - Ingesting and Retrieval
+![vector_store](https://github.com/Pratik872/RAG/blob/main/Multimodal%20RAG/images/vector_stores.png)
+
+- LanceDB (as retreiever) and Langchain was used to store the embeddings for the metadata.
+
+- Top 'k' results were retrieved. Below are the sample quesry and results for top 3.
+        Query - "a toddler and an adult"
+
+        ![1]()
 
 
 ### 4 - Large Vision-Language model for completion

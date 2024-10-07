@@ -98,8 +98,6 @@ from the embeddings of image-text pairs of `cars` (orange dots).
 
 
 ### Built with 🛠️
-- Packages/Repo : Pandas,Numpy,Seaborn,Matplotlib,Sklearn,Flask,Pickle,Git
-
-- Dataset : Kaggle
+- Packages/Repo : Langchain, Jupyter, LanceDB, Gradio
 
 - Coded on : Jupter Notebook (modelling), VSCode(building application)
